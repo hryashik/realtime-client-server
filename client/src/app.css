@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: ghostwhite;
+}
+.app {
+    box-sizing: border-box;
+}
+.info {
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info input {
+    padding: 10px 5px;
+}
+.deskMsg {
+    margin: 0 auto;
+    width: 600px;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+.msg {
+    margin-bottom: 15px;
+}
