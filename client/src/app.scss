@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: ghostwhite;
+}
+.app {
+    box-sizing: border-box;
+}
+.info {
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.username {
+    width: 150px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.userMsg {
+    width: 250px;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+.deskMsg {
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 450px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.msg {
+    margin-bottom: 15px;
+}
+.myMsg {
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: darkcyan;
+    color: white;
+    align-self: flex-end;
+}
+.otherMsg {
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: brown;
+    color: white;
+    align-self: flex-start;
+}
+.message-card {
+    display: flex;
+    flex-direction: column-reverse;
+    &__username {
+        margin-left: 3px;
+        margin-bottom: 5px;
+        color: black;
+    }
+}

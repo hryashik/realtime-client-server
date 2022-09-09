@@ -7,6 +7,7 @@ const PORT = 5000
 app.use(cors())
 app.use(express.json())
 const emitter = new events.EventEmitter()
+emitter.setMaxListeners(30)
 
 app.get('/get-messages', (req, res) => {
    emitter.once('newMessage', (message) => {
